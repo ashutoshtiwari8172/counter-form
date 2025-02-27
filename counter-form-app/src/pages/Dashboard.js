@@ -3,9 +3,8 @@ import {
   Container, 
   Grid, 
   Paper, 
-  Typography, 
-  Card, 
-  CardContent 
+  Typography
+ 
 } from '@mui/material';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
