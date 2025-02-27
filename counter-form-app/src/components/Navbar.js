@@ -69,10 +69,11 @@ function Navbar() {
           React App
         </Typography>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
+        <Button color="inherit" component={Link} to="/counter">Counter</Button>
           {/* Only show these navigation items when logged in */}
           {isAuthenticated && (
             <>
-              <Button color="inherit" component={Link} to="/counter">Counter</Button>
+                
               <Button color="inherit" component={Link} to="/user-form">User Form</Button>
               <Button color="inherit" component={Link} to="/text-editor">Text Editor</Button>
               <Button color="inherit" component={Link} to="/dashboard">Dashboard</Button>
